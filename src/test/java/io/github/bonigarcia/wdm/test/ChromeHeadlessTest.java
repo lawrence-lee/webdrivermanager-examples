@@ -17,6 +17,7 @@
 package io.github.bonigarcia.wdm.test;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -62,6 +63,7 @@ public class ChromeHeadlessTest {
     public void test() {
         driver.get("https://en.wikipedia.org/wiki/Main_Page");
         String title = driver.getTitle();
+        Assert.assertTrue(title.equals("Wikipedia, the free encyclopedia"));
         System.out.println(title);
     }
 
