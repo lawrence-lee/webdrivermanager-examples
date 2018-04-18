@@ -1,8 +1,8 @@
 *~
-target
+build
 .classpath
+.gradle
 .project
 .settings
 /.idea
 *.iml
-phantomjsdriver.log
