@@ -1,0 +1,10 @@
+
+{
+  "id": "jenkins",
+  "image": "jenkins/jenkins",
+  "cpu": 3,
+  "memory": 4096,
+  "volumes": {
+    "home": "/var/jenkins_home"
+  }
+}
