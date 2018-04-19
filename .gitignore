@@ -1,7 +1,6 @@
 *~
 build
 .classpath
-.gradle
 .project
 .settings
 /.idea
